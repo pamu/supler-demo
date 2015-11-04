@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 logs
 project/project
 project/target
@@ -15,3 +16,22 @@ dist
 /.settings
 activator-sbt-*-shim.sbt
 .idea
+=======
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.iml
+*.eml
+/dist/
+.cache
+>>>>>>> 6026db9fcd24177a47f964d403a60513991fbe6b
