@@ -6,4 +6,17 @@
         <h1>@message</h1>
     </div>
 
+    <div id="form-container"></div>
+
+    <script type="text/javascript">
+        var formContainer = document.getElementById('form-container');
+
+var form = new Supler.Form(formContainer, {});
+
+$(document).ready(function() {
+    $.get('/form', function(data) {
+         form.render(data);
+    });
+});
+    </script>
 }
